@@ -5,12 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: node:16
-    services:
-      mongodb:
-        image: mongo
-        env:
-          MONGO_INITDB_ROOT_USERNAME: root
-          MONGO_INITDB_ROOT_PASSWORD: root
     steps:
       - name: Hello World
         run: echo "Hello World"
