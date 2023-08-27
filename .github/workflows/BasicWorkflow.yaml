@@ -5,4 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: node:16
+    steps:
+      - name: Hello World
+        run: echo "Hello World"
       
