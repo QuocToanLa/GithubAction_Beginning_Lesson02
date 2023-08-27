@@ -12,6 +12,6 @@ jobs:
           MONGO_INITDB_ROOT_USERNAME: root
           MONGO_INITDB_ROOT_PASSWORD: root
     steps:
-      - name: Check out
-        run: actions/checkout@v3
+      - name: Hello World
+        run: echo "Hello World"
       
